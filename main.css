@@ -1,0 +1,61 @@
+body {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar {
+    background-color: #f83104;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #f83104;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fcc7bd;
+}
+
+.section-title {
+    font-family: 'Young Serif', serif;
+}
+
+#manchete,
+#torcedor {
+    background-color: #fcc7bd;
+}
+
+.text-colored {
+    color: #f83104;
+}
+
+.nav-cardapio .nav-link.active,
+#manda-noticia button {
+    background-color: #f83104;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #f83104;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
